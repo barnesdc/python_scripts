@@ -49,3 +49,34 @@ Collection
         3. O(n) - Lineary time, e.g. Searching an unsorted array for a specific value
         4. O(n log n) - Log-linear, e.g. Complex sorting algorithms like heap sort and merge sort
         5. O(n^2) - Quadratic, e.g. Simple sorting algorithms, such as bubble sort, selection sort and insertion sort
+
+## Data Sctructures
+
+Arrays
+
+- order of operations are simple because calculating an item index s a simple computation and doesn't matter the ammount of items in the array
+
+- Complexity
+  - O(1) calculating item index
+  - O(n) insertion / deletion of item at the beginning
+  - O(n) insertion / deletion of an item in the middle
+  - O(1) inserttion / deletion of an item at the end
+
+Linked Lists
+
+- linear colleciton of data elements called nodes
+- contain a field pointing to next element in the list along with some data
+- first item in the list is the head
+- each element has has a filed pointing to the next item in the list
+- last item next field is null
+- Different types
+  - singly - each data item only knows about next neighbor
+  - double - each data item knows previous and next data in the list
+- fast and easy to add / remove items in list.
+- no need to adjust memore
+- not possible to do constant time, random access
+
+- Complexity
+  - O(n) item lookup
+  - O(1) insertion at the front
+  - O()
