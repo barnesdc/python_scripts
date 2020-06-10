@@ -80,3 +80,26 @@ Linked Lists
   - O(n) item lookup
   - O(1) insertion at the front
   - O()
+
+# Sorting
+
+- unsorted list requires a linear (sequential search) -> check one item, compare, continue.
+- If many items, this can be slow
+- Binary Search can help this.
+  - gets rid of half of the values each iteration
+  - sort list
+  - check the middle value, dump applicable half of items if they dont meet the requirements
+  - continue
+- Bogo Sort
+  - bad sorting algorithm
+  - randomizes order of list repeatedly until it is sorted
+  - really just a matter of luck
+  - use cases:
+- Selection Sort:
+  - slow, but better than bogo sort
+  - create two arrays:
+    - unsorted
+    - sorted
+  - compares each item in the list to find the smallest or minimum value
+  - move the min value to the sorted array
+  - 
